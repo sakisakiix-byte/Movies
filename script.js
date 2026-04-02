@@ -5,5 +5,5 @@ fetch(url)
     .then(data => {
         const movies = data.movies;
         const moviesContainer = document.getElementById("container")
+        console.log(movies)
     })
-    moviesContainer.innerHTML = movies.data
